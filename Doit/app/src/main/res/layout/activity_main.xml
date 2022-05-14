@@ -11,8 +11,8 @@
         android:id="@+id/btn_test1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginBottom="192dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="600dp"
         android:text="Button1"
         android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@+id/guideline1"
@@ -22,18 +22,17 @@
         android:id="@+id/btn_test2"
         android:layout_width="143dp"
         android:layout_height="0dp"
-        android:layout_marginStart="84dp"
-        android:layout_marginBottom="204dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="396dp"
         android:text="Button2"
         android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@+id/guideline1"
-        app:layout_constraintStart_toEndOf="@+id/btn_test1"
-        app:layout_constraintBaseline_toBaselineOf="@+id/btn_test1"/>
+        app:layout_constraintStart_toEndOf="@+id/btn_test1" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_end="36dp" />
+        app:layout_constraintGuide_end="36dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
